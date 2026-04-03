@@ -1,5 +1,3 @@
-# kinematics_analysis
+# LC Ephys and tongue movement kinematics
 
-copied initial from AIND capsule template
-
-project capsule for kinematics analysis of dynamic foraging behavior videos 
+Script to produce figure panels associated with Lightning Pose tonuge kinematics and relationship to LC electrophysiology.

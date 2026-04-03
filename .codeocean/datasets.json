@@ -78,6 +78,10 @@
 			"mount": "behavior_751181_2025-02-25_12-12-30"
 		},
 		{
+			"id": "1a903479-ce3f-44b1-b1d9-18145e2653fc",
+			"mount": "keypoint_tracking_bottomview_LCrecordings_20260126"
+		},
+		{
 			"id": "1c088c3b-9448-4154-8fa2-11951c98cd35",
 			"mount": "behavior_751766_2025-02-11_11-53-32"
 		},
@@ -178,6 +182,10 @@
 			"mount": "behavior_752014_2025-03-25_12-09-16_videoprocessed_2025-10-16_00-14-20"
 		},
 		{
+			"id": "3f03b848-6839-4bad-b924-f5a63fde3b1f",
+			"mount": "keypoint_tracking_bottomview_LCrecordings_20260403"
+		},
+		{
 			"id": "3f45ae97-a740-4f34-ac1b-dbd9609fb292",
 			"mount": "behavior_763590_2025-05-02_11-07-07_videoprocessed_2025-10-29_21-59-07"
 		},
@@ -260,6 +268,10 @@
 		{
 			"id": "5fc6a772-28e1-46a7-8f5e-710512a7ac6c",
 			"mount": "behavior_761038_2025-04-18_12-37-37_videoprocessed_2025-10-29_21-59-06"
+		},
+		{
+			"id": "6b1bf694-3272-437a-8f02-319fd90103b5",
+			"mount": "LCrecordings_combined_units"
 		},
 		{
 			"id": "6b29c360-688b-4d8a-ad9d-f4f9b09e9696",

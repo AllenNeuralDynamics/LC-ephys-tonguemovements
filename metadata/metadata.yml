@@ -1,2 +1,8 @@
 metadata_version: 1
 name: LC Ephys and tongue movement kinematics
+description: This capsule analyzed the kinematics of tongue movements during the dynamic
+  foraging task. It then analyzes the relationship between the reaction time of tongue
+  movements following the go cue and the spiking data from electrophysiological recordings
+  of LC neurons.
+authors:
+- name: Matthew Becker

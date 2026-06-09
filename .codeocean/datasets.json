@@ -54,16 +54,8 @@
 			"mount": "behavior_751181_2025-02-25_12-12-30"
 		},
 		{
-			"id": "1a903479-ce3f-44b1-b1d9-18145e2653fc",
-			"mount": "keypoint_tracking_bottomview_LCrecordings_20260126"
-		},
-		{
 			"id": "1c088c3b-9448-4154-8fa2-11951c98cd35",
 			"mount": "behavior_751766_2025-02-11_11-53-32"
-		},
-		{
-			"id": "1cb11442-459b-485c-b158-3a1d408214a3",
-			"mount": "keypoint_tracking_bottomview_LCrecordings_OOD"
 		},
 		{
 			"id": "1ce38424-f3cd-434c-b0af-18d3d0179cf1",
@@ -112,10 +104,6 @@
 		{
 			"id": "32ec462e-add1-471b-b254-48adaaef9fab",
 			"mount": "LC-NE_scratch_data_1"
-		},
-		{
-			"id": "35323872-63f3-4684-8b77-11ab404023d8",
-			"mount": "behavior_717121_2024-06-15_10-00-58_videoprocessed_2025-10-28_23-21-23"
 		},
 		{
 			"id": "353fb0f0-d70f-4efd-8ae2-e14ca36cccf1",
@@ -242,16 +230,8 @@
 			"mount": "behavior_758017_2025-02-07_14-11-05"
 		},
 		{
-			"id": "80e20286-7672-492a-ac62-548b5e8bc781",
-			"mount": "behavior_781166_2025-05-15_14-20-48_videoprocessed_2025-10-29_21-59-07"
-		},
-		{
 			"id": "81a65bd6-2fb5-4e92-b5f2-5f107f64b66e",
 			"mount": "behavior_758018_2025-03-21_11-00-31"
-		},
-		{
-			"id": "84d1c8ff-d5f8-48bd-bb16-dc98fc8c9786",
-			"mount": "behavior_781166_2025-05-15_14-20-48"
 		},
 		{
 			"id": "890265ea-726b-4e43-ac9c-d422a3e2b851",
@@ -330,10 +310,6 @@
 			"mount": "behavior_758017_2025-02-06_11-26-09"
 		},
 		{
-			"id": "a94d3d93-96b3-4d5f-9fc1-2cc85a94982f",
-			"mount": "behavior_781166_2025-05-14_14-18-24"
-		},
-		{
 			"id": "a9777279-80d3-4c3e-8b8b-9a376b25d62b",
 			"mount": "behavior_754897_2025-03-14_11-28-48_videoprocessed_2025-10-29_21-59-06"
 		},
@@ -410,10 +386,6 @@
 			"mount": "behavior_761038_2025-04-17_11-03-12"
 		},
 		{
-			"id": "ce657082-bdc7-494b-830e-8c49c620fe91",
-			"mount": "behavior_781166_2025-05-13_14-04-22"
-		},
-		{
 			"id": "d8eb6cfe-d8af-4bf9-a384-909ce651a8b5",
 			"mount": "behavior_784806_2025-06-17_14-59-23"
 		},
@@ -424,10 +396,6 @@
 		{
 			"id": "dc47c678-1be2-4701-889a-d392cfe906dc",
 			"mount": "behavior_784806_2025-06-20_13-39-16"
-		},
-		{
-			"id": "e057760c-675d-465e-9966-a319f8e897e0",
-			"mount": "behavior_781166_2025-05-14_14-18-24_videoprocessed_2025-10-29_21-59-06"
 		},
 		{
 			"id": "e08f98e9-7319-4aa1-993e-e28e69604f5b",
@@ -442,10 +410,6 @@
 			"mount": "behavior_758018_2025-03-20_11-53-02"
 		},
 		{
-			"id": "e506fc7b-587a-4701-ae3a-e5e2d41b8538",
-			"mount": "keypoint_tracking_bottomview_LCrecordings_ID"
-		},
-		{
 			"id": "e5258d95-c786-4f12-9807-204557c11b40",
 			"mount": "behavior_751181_2025-02-25_12-12-30_videoprocessed_2025-10-28_23-21-23"
 		},
@@ -458,10 +422,6 @@
 			"mount": "behavior_751766_2025-02-11_11-53-32_videoprocessed_2025-10-28_23-21-23"
 		},
 		{
-			"id": "ed39a681-4544-46fc-9baf-c703d9b10713",
-			"mount": "behavior_781166_2025-05-13_14-04-22_videoprocessed_2025-10-29_21-59-07"
-		},
-		{
 			"id": "eea8cea5-b5e2-4845-861f-8997d28e577d",
 			"mount": "behavior_761038_2025-04-17_11-03-12_videoprocessed_2025-10-29_21-59-06"
 		},
@@ -472,10 +432,6 @@
 		{
 			"id": "f360b4fd-88d5-4676-9770-5a3e94becc1d",
 			"mount": "behavior_754897_2025-03-11_12-07-35"
-		},
-		{
-			"id": "f7ceca5c-5010-4436-8a91-b0c780b04fd8",
-			"mount": "behavior_717121_2024-06-15_10-00-58"
 		},
 		{
 			"id": "f908dd4d-d7ed-4d52-97cf-ccd0e167c659",

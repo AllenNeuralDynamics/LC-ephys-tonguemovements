@@ -86,10 +86,6 @@
 			"mount": "behavior_784806_2025-06-20_13-39-16_videoprocessed_2025-11-07_21-12-28"
 		},
 		{
-			"id": "2c00fd74-e87a-463b-8a07-47d568851d24",
-			"mount": "BottomViewPylon1-MIB-2025-02-17"
-		},
-		{
 			"id": "2c26eac1-17ff-40eb-badc-25eda92b0de3",
 			"mount": "behavior_782394_2025-04-25_11-13-18"
 		},
@@ -432,10 +428,6 @@
 		{
 			"id": "f360b4fd-88d5-4676-9770-5a3e94becc1d",
 			"mount": "behavior_754897_2025-03-11_12-07-35"
-		},
-		{
-			"id": "f908dd4d-d7ed-4d52-97cf-ccd0e167c659",
-			"mount": "foraging_nwb_bonsai"
 		},
 		{
 			"id": "fd0c45ba-bb86-498c-a9bc-59f6e92d616d",

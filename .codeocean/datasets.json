@@ -74,6 +74,10 @@
 			"mount": "behavior_754897_2025-03-13_11-20-39"
 		},
 		{
+			"id": "299fd5aa-1454-4b7a-968c-1e7d2c570d27",
+			"mount": "LC_percentile_meshes_2026-07-10_21-13-43"
+		},
+		{
 			"id": "2a63da4e-76c0-4c80-96c7-1b4c5ded8a9a",
 			"mount": "behavior_754897_2025-03-12_12-23-09"
 		},
@@ -96,10 +100,6 @@
 		{
 			"id": "324242e3-dab2-458e-b863-f828782e21c1",
 			"mount": "behavior_758018_2025-03-19_11-16-41"
-		},
-		{
-			"id": "32ec462e-add1-471b-b254-48adaaef9fab",
-			"mount": "LC-NE_scratch_data_1"
 		},
 		{
 			"id": "353fb0f0-d70f-4efd-8ae2-e14ca36cccf1",
@@ -166,8 +166,8 @@
 			"mount": "behavior_761038_2025-04-18_12-37-37_videoprocessed_2025-10-29_21-59-06"
 		},
 		{
-			"id": "6b1bf694-3272-437a-8f02-319fd90103b5",
-			"mount": "LCrecordings_combined_units"
+			"id": "60d862b2-173a-4024-8a45-9714d40ae7e3",
+			"mount": "LC-subject-level-processing"
 		},
 		{
 			"id": "6b29c360-688b-4d8a-ad9d-f4f9b09e9696",
@@ -396,6 +396,10 @@
 		{
 			"id": "e08f98e9-7319-4aa1-993e-e28e69604f5b",
 			"mount": "behavior_751769_2025-01-16_11-31-52"
+		},
+		{
+			"id": "e161c24a-a20f-4a5b-b065-c8dff2f7f490",
+			"mount": "LCrecordings_combined_units"
 		},
 		{
 			"id": "e22860ce-0424-4a37-ba30-f121e4b9baf6",

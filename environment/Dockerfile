@@ -18,11 +18,11 @@ RUN apt-get update \
         build-essential=12.8ubuntu1.1 \
         libgit2-dev=0.28.4+dfsg.1-2ubuntu0.1 \
 #        libssl-dev=1.1.1f-1ubuntu2.22 \
-        libgl1-mesa-glx \
+        libgl1-mesa-glx=21.2.6-0ubuntu0.1~20.04.2 \
         pandoc=2.5-3build2 \
         pkg-config=0.29.1-0ubuntu4 \
         python3-tk=3.8.10-0ubuntu1~20.04 \
-        ffmpeg \
+        ffmpeg=4.2.7-0ubuntu0.1 \
     && rm -rf /var/lib/apt/lists/*
 
 RUN pip install -U --no-cache-dir \
@@ -41,16 +41,14 @@ RUN pip install -U --no-cache-dir \
     statsmodels==0.14.2 \
     wavpack-numcodecs==0.1.5 \
     zarr==2.18.2 \
-    aind_analysis_arch_result_access --upgrade \
-    -e git+https://github.com/AllenNeuralDynamics/aind-dynamic-foraging-basic-analysis.git@main#egg=aind-dynamic-foraging-basic-analysis \
-    -e git+https://github.com/AllenNeuralDynamics/aind-dynamic-foraging-data-utils.git@main#egg=aind-dynamic-foraging-data-utils \
-    -e git+https://github.com/AllenNeuralDynamics/aind-dynamic-foraging-behavior-video-analysis.git@main#egg=aind-dynamic-foraging-behavior-video-analysis \
+    aind_analysis_arch_result_access==1.1.2 \
+    aind-dynamic-foraging-data-utils==0.1.45 \
+    aind-dynamic-foraging-behavior-video-analysis==0.0.0 \
     opencv_python==4.11.0.86 \
     moviepy==1.0.3 \
     scikit-image==0.24.0 \
     trimesh==4.11.0
-    # hdmf==3.12.2 \
-    # aind_dynamic_foraging_data_utils==0.1.5
+
 
 COPY postInstall /
 RUN /postInstall

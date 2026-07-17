@@ -294,7 +294,7 @@ def collect_all_movements(
 # =========================
 all_tongue_movements = collect_all_movements()
 
-SAVE_PATH = Path("/results/all_tongue_movements_16092025.parquet")
+SAVE_PATH = Path("/results/all_tongue_movements.parquet")
 SAVE_PATH.parent.mkdir(parents=True, exist_ok=True)
 all_tongue_movements.to_parquet(SAVE_PATH)
 print(f"Saved {len(all_tongue_movements)} movements to {SAVE_PATH}")

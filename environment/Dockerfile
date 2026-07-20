@@ -15,17 +15,13 @@ RUN python -m pip install --upgrade pip
 
 RUN apt-get update \
     && apt-get install -y --no-install-recommends \
-        build-essential=12.8ubuntu1.1 \
-        libgit2-dev=0.28.4+dfsg.1-2ubuntu0.1 \
-#        libssl-dev=1.1.1f-1ubuntu2.22 \
         libgl1-mesa-glx=21.2.6-0ubuntu0.1~20.04.2 \
-        pandoc=2.5-3build2 \
         pkg-config=0.29.1-0ubuntu4 \
-        python3-tk=3.8.10-0ubuntu1~20.04 \
-        ffmpeg=4.2.7-0ubuntu0.1 \
+        build-essential=12.8ubuntu1.1 \
     && rm -rf /var/lib/apt/lists/*
 
 RUN pip install -U --no-cache-dir \
+    boto3==1.41.5 \
     aind-ephys-utils==0.0.15 \
     hdmf-zarr==0.11.0 \
     ipywidgets==7.7.2 \
@@ -41,9 +37,9 @@ RUN pip install -U --no-cache-dir \
     statsmodels==0.14.2 \
     wavpack-numcodecs==0.1.5 \
     zarr==2.18.2 \
-    aind_analysis_arch_result_access==1.1.2 \
-    aind-dynamic-foraging-data-utils==0.1.45 \
-    aind-dynamic-foraging-behavior-video-analysis==0.0.0 \
+    aind-dynamic-foraging-data-utils==0.1.48 \
+    aind_dynamic_foraging_basic_analysis==0.4.2 \
+    git+https://github.com/AllenNeuralDynamics/aind-dynamic-foraging-behavior-video-analysis@44de8f82bef424221a909736d6ae9a1c8e8363a3 \
     opencv_python==4.11.0.86 \
     moviepy==1.0.3 \
     scikit-image==0.24.0 \

@@ -13,7 +13,7 @@ https://github.com/AllenNeuralDynamics/LC-ephys-tonguemovements.git
 **LCrecordings_combined_units**
 - Curated ephys data table (Sue)
 
-**LC-NE_scratch_data_1**
+**LC-subject-level-processing**
 - Ephys spike time data (Sue)
 
 **keypoint_tracking_bottomview_LCrecordings_20260403**
@@ -32,9 +32,10 @@ Main pipeline: [`code/tongue_kinematics_ephys_figures.ipynb`](code/tongue_kinema
 6. **Test spatial structure** of correlation strength across LC anatomy (CCF coordinates), via linear-trend and kNN permutation tests (`spatial_dependence_summary`, [`ccf_utils.py`](code/ccf_utils.py)).
 7. **Cross-check** against an independently computed behavior-outcome table (`features_combined_beh_all.pkl`).
 
-A separate export step builds the full annotated movements table used upstream of the above: [`code/export/build_all_tongue_movements.py`](code/export/build_all_tongue_movements.py) (metadata written by [`code/export/metadata.py`](code/export/metadata.py)).
+A separate export step builds the full annotated movements table: [`code/export/build_all_tongue_movements.py`](code/export/build_all_tongue_movements.py) (metadata written by [`code/export/metadata.py`](code/export/metadata.py)).
 
 ## Outputs
+### Figure Outputs
 
 **`results/ephys_kinematics_panels/`** — figure panels (`.png`/`.svg`, each with a companion `.csv` of source data), named by figure ID:
 
@@ -47,6 +48,7 @@ A separate export step builds the full annotated movements table used upstream o
 | `FigureS15jm_spatial_tstats` | Correlation strength mapped onto LC anatomy, with spatial trend/permutation tests |
 | `FigureS15k`, `FigureS15n` | Validation scatterplots vs. independently computed T-stats |
 
+### Separate Outputs
 **`results/all_tongue_movements.parquet`** — combined, annotated tongue-movement table across sessions.
 
 **`results/processing.json`, `results/data_description.json`** — AIND processing/data-description metadata for the above table.

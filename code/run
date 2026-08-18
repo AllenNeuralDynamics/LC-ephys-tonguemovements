@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
 set -ex
 
-jupyter execute /code/tongue_kinematics_ephys_figures.ipynb
+#jupyter execute /code/tongue_kinematics_ephys_figures.ipynb
+python /code/build_all_tongue_movements.py
+

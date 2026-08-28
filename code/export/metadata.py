@@ -128,6 +128,8 @@ def main() -> None:
 
     data_description = ds.DataDescription.model_validate_json((BASE / "data_description.json").read_text())
     data_description.source_data = ["keypoint-tracking-bottomview-LCrecordings_2026-04-03_18-07-14"]
+    data_description.name = "LC-ephys-tonguemovements_2026-08-28_00-00-00"
+    data_description.data_summary = "Combined tongue-movement kinematics annotated across dynamic foraging sessions, related to spiking of LC neurons."
     data_description.write_standard_file(RESULTS_DIR)
     print(f"Wrote {RESULTS_DIR / 'data_description.json'}")
 
